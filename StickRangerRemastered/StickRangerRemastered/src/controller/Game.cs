@@ -20,7 +20,10 @@ using System.Windows.Shapes;
 namespace StickRangerRemasterd.src.controller
 {
 
-    class Game : Window, IGame
+    /// <summary>
+    /// Interaction logic for Game.xaml
+    /// </summary>
+    public partial class Game : Window, IGame
     {
 
         private bool isRunning = true;
