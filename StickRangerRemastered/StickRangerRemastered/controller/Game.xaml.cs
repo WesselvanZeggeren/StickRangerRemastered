@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 
 namespace StickRangerRemastered.controller
 {
+
     /// <summary>
     /// Interaction logic for Game.xaml
     /// </summary>
