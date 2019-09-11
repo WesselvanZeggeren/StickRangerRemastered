@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StickRangerRemasterd.src.controller.interfaces
+namespace StickRangerRemastered.model.entity
 {
-    interface IGame
+    class Item
     {
+
 
     }
 }

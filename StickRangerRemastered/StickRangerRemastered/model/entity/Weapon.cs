@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stick_Ranger_Remasterd.src.json
+namespace StickRangerRemastered.model.entity
 {
-    class item
+    class Weapon
     {
+
     }
 }
