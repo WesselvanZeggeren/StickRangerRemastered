@@ -1,13 +1,11 @@
-using StickRangerRemastered.src.model.enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StickRangerRemastered.src.model.enities
+namespace StickRangerRemastered.model.entity
 {
-
     class Enemy
     {
 
@@ -32,6 +30,4 @@ namespace StickRangerRemastered.src.model.enities
 
         private List<Tuple<uint, double>> drops;
     }
-
-
 }
