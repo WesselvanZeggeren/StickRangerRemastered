@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StickRangerRemastered.model.type
 {
 
-    enum HeadType
+    /* enum HeadType
     {
 
         smileyNeurtal     = 0x00,
@@ -30,5 +30,5 @@ namespace StickRangerRemastered.model.type
         demon             = 0x17,
         coconut           = 0x18,
         triangle          = 0x19
-    }
+    } */
 }

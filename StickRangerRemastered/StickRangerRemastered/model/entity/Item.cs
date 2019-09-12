@@ -9,6 +9,9 @@ namespace StickRangerRemastered.model.entity
     class Item
     {
 
+        public uint buyPrice;
+        public uint sellPrice;
+        public string image;
 
     }
 }

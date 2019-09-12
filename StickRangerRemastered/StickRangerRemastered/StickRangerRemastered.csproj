@@ -109,7 +109,28 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="model\json\" />
-    <Folder Include="view\resources\" />
+    <Folder Include="view\resource\attack\" />
+    <Folder Include="view\resource\head\" />
+    <Folder Include="view\resource\item\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="view\resource\map\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="view\resource\map\originalMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="view\resource\map\castleMap.png" />
+    <Resource Include="view\resource\map\cave1Map.png" />
+    <Resource Include="view\resource\map\cave2Map.png" />
+    <Resource Include="view\resource\map\cave3Map.png" />
+    <Resource Include="view\resource\map\caveMountainMap.png" />
+    <Resource Include="view\resource\map\hellCastleMap.png" />
+    <Resource Include="view\resource\map\iceCastleMap.png" />
+    <Resource Include="view\resource\map\piramidMap.png" />
+    <Resource Include="view\resource\map\submarineMap.png" />
+    <Resource Include="view\resource\map\templeMap.png" />
+    <Resource Include="view\resource\map\villageMap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StickRangerRemastered.model.type;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,25 +10,33 @@ namespace StickRangerRemastered.model.entity
     class Enemy
     {
 
-        private uint health;
-        private uint minAttack;
-        private uint maxAttack;
-        private uint minAGI;
-        private uint maxAGI;
-        private uint range;
+        // attack specific
+        public uint health { get; }
+        public uint minAttack { get; }
+        public uint maxAttack { get; }
+        public uint minAGI { get; }
+        public uint maxAGI { get; }
+        public uint range { get; }
+        public DamageType strenghts { get; }
+        public DamageType weaknesses { get; }
 
-        private uint level;
-        private uint exp;
-        private uint gold;
+        // drop specific
+        public uint level { get; }
+        public uint exp { get; }
+        public uint gold { get; }
+        public List<Tuple<Item, double>> drops { get; }
 
-        private string headColor;
-        private string bodyColor;
+        // textures
+        public string headColor { get; }
+        public string bodyColor { get; }
+        public string head { get; }
+        public string attack1 { get; }
+        public string attack2 { get; }
+        public EnemyType type { get; }
 
-        private HeadType head;
-        private EnemyType type;
-        private DamageType strenghts;
-        private DamageType weaknesses;
+        public Enemy()
+        {
 
-        private List<Tuple<uint, double>> drops;
+        }
     }
 }
